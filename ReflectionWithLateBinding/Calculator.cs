@@ -11,6 +11,17 @@ namespace ReflectionWithLateBinding
         {
             return input1 + input2;
         }
+
+
+        public int SumArray(params int[] input)
+        {
+            int sum = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                sum += input[i];
+            }
+            return sum;
+        }
      
     }
 
