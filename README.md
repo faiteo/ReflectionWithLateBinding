@@ -1,2 +1,2 @@
 # ReflectionWithLateBinding
-A simple console application showing an example with Reflection in c# using Late Binding
+A simple console application showing an example of Reflection in c#, using Late Binding.
